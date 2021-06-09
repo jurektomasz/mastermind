@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>MASTERMIND</title>
+  </head>
+  <body>
+    <h1>MASTERMIND</h1>
+
+    <div id="score">
+      <div>
+        <span>WINS:</span>
+        <span id="wins"></span>
+      </div>
+      <div>
+        <span>LOSSES:</span>
+        <span id="losses"></span>
+      </div>
+    </div>
+
+    <div id="container">
+      <div id="board">
+        <div id="hidden-colors">
+          <div class="empty"></div>
+          <div class="color color-hidden"></div>
+          <div class="color color-hidden"></div>
+          <div class="color color-hidden"></div>
+          <div class="color color-hidden"></div>
+        </div>
+
+        <div id="guess">
+          <div class="row row-1">
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="indicators">
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+            </div>
+          </div>
+          <div class="row row-2">
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="indicators">
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+            </div>
+          </div>
+          <div class="row row-3">
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="indicators">
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+            </div>
+          </div>
+          <div class="row row-4">
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="indicators">
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+            </div>
+          </div>
+          <div class="row row-5">
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="indicators">
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+            </div>
+          </div>
+          <div class="row row-6">
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="indicators">
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+            </div>
+          </div>
+          <div class="row row-7">
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="indicators">
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+            </div>
+          </div>
+          <div class="row row-8">
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="chosen-color"></div>
+            <div class="indicators">
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+              <div class="indicator"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="colors"></div>
+
+      <button class="button">SUBMIT</button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
